@@ -1,0 +1,145 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:#0b0f1a;
+color:white;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:20px 80px;
+align-items:center;
+}
+
+.navbar ul{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+}
+
+.join-btn{
+background:#ff3c00;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+color:white;
+cursor:pointer;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px;
+min-height:90vh;
+background:linear-gradient(90deg,#0b0f1a 65%,#ff3c00 35%);
+}
+
+.hero-left h1{
+font-size:60px;
+margin:20px 0;
+}
+
+.badge span{
+padding:6px 12px;
+background:#333;
+border-radius:5px;
+font-size:12px;
+}
+
+.orange{
+background:#ff3c00;
+}
+
+.hero-img{
+height:420px;
+}
+
+.section{
+padding:80px;
+text-align:center;
+}
+
+.dark{
+background:#111;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.box{
+background:#1c1f2a;
+padding:30px;
+border-radius:10px;
+}
+
+.trainer img{
+width:120px;
+border-radius:50%;
+margin-bottom:10px;
+}
+
+.price{
+background:#1c1f2a;
+padding:30px;
+border-radius:10px;
+}
+
+.popular{
+border:2px solid #ff3c00;
+}
+
+.price button{
+margin-top:10px;
+background:#ff3c00;
+border:none;
+padding:10px 20px;
+color:white;
+cursor:pointer;
+}
+
+.bmi input{
+padding:10px;
+margin:10px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+max-width:400px;
+margin:auto;
+gap:10px;
+}
+
+form input, textarea{
+padding:10px;
+}
+
+form button{
+background:#ff3c00;
+border:none;
+padding:10px;
+color:white;
+cursor:pointer;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:black;
+}

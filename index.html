@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fitlife Gym</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+<nav class="navbar">
+<div class="logo">🏋 Fitlife</div>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#classes">Classes</a></li>
+<li><a href="#trainers">Trainers</a></li>
+<li><a href="#pricing">Pricing</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<button class="join-btn">Join Now</button>
+</nav>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+<div class="hero-left">
+<div class="badge">
+<span class="orange">THE BEST</span>
+<span>FITNESS CLUB</span>
+</div>
+<h1>Work Hard To <br> Get Better Life</h1>
+<p>Transform your body and build strength with professional trainers.</p>
+<button class="start-btn">Get Started</button>
+</div>
+
+<div class="hero-right">
+<img src="https://i.imgur.com/8Km9tLL.png" class="hero-img">
+<div class="card calories">
+Calories Burned <br> <strong>500 kcal</strong>
+</div>
+
+<div class="card heart">
+Heart Rate <br> <strong>110 bpm</strong>
+</div>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+<h2>About Our Gym</h2>
+<p>
+We provide modern equipment, professional trainers and personalized
+fitness programs to help you achieve your fitness goals.
+</p>
+</section>
+
+<!-- CLASSES -->
+<section id="classes" class="section dark">
+<h2>Our Classes</h2>
+<div class="grid">
+<div class="box">🏋 Weight Training</div>
+<div class="box">🤸 Yoga</div>
+<div class="box">🚴 Cardio</div>
+<div class="box">🥊 Boxing</div>
+</div>
+</section>
+
+<!-- TRAINERS -->
+<section id="trainers" class="section">
+<h2>Our Trainers</h2>
+<div class="grid">
+<div class="trainer">
+<img src="https://randomuser.me/api/portraits/men/32.jpg">
+<h3>John Carter</h3>
+<p>Strength Trainer</p>
+</div>
+
+<div class="trainer">
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<h3>Sarah Lee</h3>
+<p>Yoga Coach</p>
+</div>
+
+<div class="trainer">
+<img src="https://randomuser.me/api/portraits/men/75.jpg">
+<h3>Mike Ross</h3>
+<p>Fitness Coach</p>
+</div>
+</div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="section dark">
+<h2>Membership Plans</h2>
+<div class="grid">
+<div class="price">
+<h3>Basic</h3>
+<h2>$20</h2>
+<p>Gym access</p>
+<button>Join</button>
+</div>
+
+<div class="price popular">
+<h3>Standard</h3>
+<h2>$35</h2>
+<p>Gym + Classes</p>
+<button>Join</button>
+</div>
+
+<div class="price">
+<h3>Premium</h3>
+<h2>$50</h2>
+<p>All features</p>
+<button>Join</button>
+</div>
+</div>
+</section>
+
+<!-- BMI CALCULATOR -->
+<section class="section">
+<h2>BMI Calculator</h2>
+<div class="bmi">
+<input id="height" placeholder="Height (cm)">
+<input id="weight" placeholder="Weight (kg)">
+<button onclick="calculateBMI()">Calculate</button>
+<p id="result"></p>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section dark">
+<h2>Contact Us</h2>
+<form>
+<input placeholder="Name">
+<input placeholder="Email">
+<textarea placeholder="Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+<footer>
+
+<p>© 2026 Fitlife Gym</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
