@@ -6,15 +6,19 @@ font-family:Poppins;
 }
 
 body{
-background:#0b0f1a;
-color:white;
+background:#F5F7FB;
+color:#1F2937;
 }
+
+/* NAVBAR */
 
 .navbar{
 display:flex;
 justify-content:space-between;
 padding:20px 80px;
 align-items:center;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
 }
 
 .navbar ul{
@@ -24,18 +28,32 @@ list-style:none;
 }
 
 .navbar a{
-color:white;
+color:#1F2937;
 text-decoration:none;
+font-weight:500;
 }
 
+.navbar a:hover{
+color:#2563EB;
+}
+
+/* BUTTON */
+
 .join-btn{
-background:#ff3c00;
+background:#2563EB;
 border:none;
-padding:10px 20px;
+padding:10px 22px;
 border-radius:6px;
 color:white;
 cursor:pointer;
+transition:0.3s;
 }
+
+.join-btn:hover{
+background:#06B6D4;
+}
+
+/* HERO */
 
 .hero{
 display:flex;
@@ -43,7 +61,8 @@ justify-content:space-between;
 align-items:center;
 padding:80px;
 min-height:90vh;
-background:linear-gradient(90deg,#0b0f1a 65%,#ff3c00 35%);
+background:linear-gradient(135deg,#2563EB,#06B6D4);
+color:white;
 }
 
 .hero-left h1{
@@ -51,20 +70,31 @@ font-size:60px;
 margin:20px 0;
 }
 
+.hero-left p{
+color:#E5E7EB;
+}
+
+/* BADGE */
+
 .badge span{
 padding:6px 12px;
-background:#333;
-border-radius:5px;
+background:white;
+color:#2563EB;
+border-radius:20px;
 font-size:12px;
+font-weight:600;
 }
 
 .orange{
-background:#ff3c00;
+background:#06B6D4 !important;
+color:white !important;
 }
 
 .hero-img{
 height:420px;
 }
+
+/* SECTIONS */
 
 .section{
 padding:80px;
@@ -72,8 +102,10 @@ text-align:center;
 }
 
 .dark{
-background:#111;
+background:#EEF2FF;
 }
+
+/* GRID */
 
 .grid{
 display:grid;
@@ -82,11 +114,21 @@ gap:30px;
 margin-top:40px;
 }
 
+/* BOX */
+
 .box{
-background:#1c1f2a;
+background:white;
 padding:30px;
 border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+transition:0.3s;
 }
+
+.box:hover{
+transform:translateY(-5px);
+}
+
+/* TRAINERS */
 
 .trainer img{
 width:120px;
@@ -94,29 +136,50 @@ border-radius:50%;
 margin-bottom:10px;
 }
 
+.trainer{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+/* PRICING */
+
 .price{
-background:#1c1f2a;
+background:white;
 padding:30px;
 border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
 }
 
 .popular{
-border:2px solid #ff3c00;
+border:2px solid #2563EB;
 }
 
 .price button{
 margin-top:10px;
-background:#ff3c00;
+background:#2563EB;
 border:none;
 padding:10px 20px;
 color:white;
+border-radius:6px;
 cursor:pointer;
 }
+
+.price button:hover{
+background:#06B6D4;
+}
+
+/* BMI */
 
 .bmi input{
 padding:10px;
 margin:10px;
+border:1px solid #D1D5DB;
+border-radius:6px;
 }
+
+/* FORM */
 
 form{
 display:flex;
@@ -128,18 +191,30 @@ gap:10px;
 
 form input, textarea{
 padding:10px;
+border:1px solid #D1D5DB;
+border-radius:6px;
 }
 
 form button{
-background:#ff3c00;
+background:#2563EB;
 border:none;
 padding:10px;
 color:white;
+border-radius:6px;
 cursor:pointer;
 }
+
+form button:hover{
+background:#06B6D4;
+}
+
+/* FOOTER */
 
 footer{
 text-align:center;
 padding:20px;
-background:black;
+background:white;
+margin-top:40px;
+color:#6B7280;
+border-top:1px solid #E5E7EB;
 }
